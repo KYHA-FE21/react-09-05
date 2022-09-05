@@ -24,6 +24,7 @@ body {
 
 .home {
   display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -57,4 +58,37 @@ body {
   color: white;
   text-decoration: none;
   text-align: center;
+}
+
+.link__list li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.abouts {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.reuse-btn {
+  text-align: center;
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nametag {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0.3rem 0.3rem 0.5rem;
+  border: 3px solid black;
+}
+
+.nametag p {
+  margin: 0 1rem 0 1rem;
 }
