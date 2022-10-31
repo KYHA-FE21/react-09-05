@@ -4,6 +4,7 @@ import NameTag from "./NameTag";
 import Clicker from "./Clicker";
 import RandomNumber from "./RandomNumber";
 import Item from "./Item";
+import Effect from "./Effect";
 
 const initialNames = [
   { firstName: "Helena", lastName: "Johansson" },
@@ -20,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <Item />
+      <Effect />
     </div>
   );
 };
