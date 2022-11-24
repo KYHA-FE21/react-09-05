@@ -18,5 +18,183 @@
       "password": "123456",
       "id": 1
     }
+  ],
+  "textnodes": [
+    {
+      "id": 1,
+      "text": "You wake up in a strange place and see.....",
+      "choice": "Go Left",
+      "sword": true,
+      "choiceTwo": "Go Right",
+      "bluegoo": false
+    },
+    {
+      "id": 2,
+      "text": "You stand here now what?",
+      "choice": "Go Home",
+      "sword": false,
+      "choiceTwo": "Go Back",
+      "choiceThree": "Dance",
+      "choiceFour": "Wait"
+    }
+  ],
+  "textnodes": [
+    {
+      "id": 1,
+      "text": "You wake up in a strange place and see two hallways",
+      "options": [
+        {
+          "text": "Go Left",
+          "nextText": 2
+        },
+        {
+          "text": "Go Right",
+          "nextText": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "You stand here now what?",
+      "options": [
+        {
+          "text": "Go forward",
+          "nextText": 3
+        },
+        {
+          "text": "Go Back",
+          "nextText": 1
+        },
+        {
+          "text": "Dance",
+          "nextText": 666
+        },
+        {
+          "text": "Wait",
+          "nextText": 666
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "At the end of the hallway you see a large chest",
+      "options": [
+        {
+          "text": "Go open it",
+          "nextText": 4
+        },
+        {
+          "text": "Go Back",
+          "nextText": 2
+        },
+        {
+          "text": "Ignore it and continue",
+          "nextText": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "In the chest you find different items",
+      "options": [
+        {
+          "text": "Large heavy sword",
+          "nextText": 100
+        },
+        {
+          "text": "Massivly oversized shield",
+          "nextText": 50
+        },
+        {
+          "text": "Ignore it and continue",
+          "nextText": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Suddenly hear a roar behind you and you turn around just to see its a bear charging you at full speed",
+      "options": [
+        {
+          "text": "Raise your fists",
+          "nextText": 666
+        },
+        {
+          "text": "Ignore it",
+          "nextText": 667
+        }
+      ]
+    },
+
+    {
+      "id": 50,
+      "text": "Suddenly hear a roar behind you and you turn around just to see its a bear charging you at full speed",
+      "options": [
+        {
+          "text": "Raise your shield and protect yourself",
+          "nextText": 12345
+        },
+        {
+          "text": "Ignore it",
+          "nextText": 667
+        }
+      ]
+    },
+
+    {
+      "id": 100,
+      "text": "Suddenly hear a roar behind you and you turn around just to see its a bear charging you at full speed",
+      "options": [
+        {
+          "text": "Raise your sword and swing",
+          "nextText": 101
+        },
+        {
+          "text": "Ignore it",
+          "nextText": 667
+        }
+      ]
+    },
+
+    {
+      "id": 12345,
+      "text": "Battle begins!",
+      "options": [
+        {
+          "text": "Attack",
+          "nextText": -1
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "text": "Congratulations you have defeted the game!",
+      "options": [
+        {
+          "text": "Play again!",
+          "nextText": -1
+        }
+      ]
+    },
+    {
+      "id": 666,
+      "text": "You died",
+      "options": [
+        {
+          "text": "Restart",
+          "nextText": -1
+        }
+      ]
+    },
+    {
+      "id": 667,
+      "text": "You died, just ignoring everything wont help will it?",
+      "options": [
+        {
+          "text": "Restart",
+          "nextText": -1
+        }
+      ]
+    }
   ]
 }
